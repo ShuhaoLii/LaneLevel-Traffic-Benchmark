@@ -294,7 +294,6 @@ if __name__ == '__main__':
         train_iterator = data['train_loader'].get_iterator ()
         losses = []
         for _, (x, y) in enumerate (train_iterator):
-            start_time = time.time ()
             optimizer.zero_grad ()
             x, y = prepare_data (x, y)  # H,B,N,D
             x = x.unsqueeze (4).permute (1, 0, 3, 2, 4)
@@ -316,7 +315,6 @@ if __name__ == '__main__':
             torch.nn.utils.clip_grad_norm_ (model.parameters (), max_grad_norm)
 
             optimizer.step ()
-            print("iter_time:",time.time()-start_time)
         print ("epoch complete")
         lr_scheduler.step ()
         print ("evaluating now!")
