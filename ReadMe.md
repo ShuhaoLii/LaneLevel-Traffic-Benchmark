@@ -2,7 +2,25 @@
 
 Welcome to the Git Hub repository for the Lane-Level Traffic Prediction Benchmark. This repository contains all the code and datasets related to our paper: "Unifying Lane-Level Traffic Prediction from a Graph Structural Perspective: Benchmark and Baseline." This project aims to provide a standardized platform for evaluating and comparing the performance of various lane-level traffic prediction models.
 
-### Contents
+### Special Challenges
+
+:triangular_flag_on_post: Efficiency Requirements
+
+:triangular_flag_on_post: Accuracy Requirements
+
+:triangular_flag_on_post: Long-term Prediction Capability Requirements
+
+### From Our Work, You Will Gain:
+
+:star2: ​A comprehensive **survey** of existing research
+
+:star2: ​Reproduction of existing research **code**
+
+:star2: ​Publicly available test **datasets** for multiple scenarios
+
+:star2:A simple and efficient **baseline model**
+
+### Benchmark Contents:
 
  This repository includes the reproduced codes of the models and their corresponding abbreviated names mentioned in the paper. If you are the author of any of these models or if you find any issues with the reproduction, we welcome your contribution to help us build a better lane-level traffic prediction code library.
 
